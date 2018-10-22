@@ -1,0 +1,433 @@
+body
+{
+background-color: rgb(45, 43, 43);
+margin: 0;
+}
+.suggestion{
+  padding-top: 10px;
+  position:fixed;
+  top: 70px;
+  left: 1220px;
+width: 300px;
+height: 300px;
+background-color: rgb(64, 64, 64);
+border: 0px;
+border-radius: 10px;
+}
+.suggestionTwo{
+  padding-top: 10px;
+  position:fixed;
+  top: 400px;
+  left: 1220px;
+width: 300px;
+height: 300px;
+background-color: rgb(64, 64, 64);
+border: 0px;
+border-radius: 10px;
+}
+.histori{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.lineVer{
+  height: 60%;
+  width: 0px;
+  position: absolute;
+  top:15px;
+  border: 1px solid rgb(80, 80, 80);
+  left: 159px;
+}
+.lineVerTwo
+{
+  height: 60%;
+  width: 0px;
+  position: absolute;
+  top:15px;
+  border: 1px solid rgb(80, 80, 80);
+  left: 299px;
+}
+.frind{
+  border-radius: 10px;
+  position: relative;
+  margin-left: 500px;
+  top: 70px;
+  height: 110px;
+  width: 700px;
+  background-color: rgb(64, 64, 64);
+  margin-bottom: 10px;
+}
+.imgFrindOne{
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+}
+.imgFrind{
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-left: 90px;
+}
+.Friname{
+  position: relative;
+  left: 20px;
+  margin-left: 10px;
+}
+.frindText{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.imgBell{
+  width: 30px;
+  height: 30px;
+  background-image: url(notification.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-left: 300px;
+  position: absolute;
+  top: 13px;
+}
+.imgBell:hover{
+  width: 30px;
+  height: 30px;
+  background-image: url(notificationWhite.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-left: 300px;
+  position: absolute;
+  top: 13px;
+}
+.menuSet{
+  position: absolute;
+  font-size: 20px;
+  top: -14px;
+  left: 1500px;
+  width: 500px;
+}
+.setting{
+  background-image: url(settings-work-tool.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  position: absolute;
+  left: 150px;
+}
+.setting:hover{
+  background-image: url(settings-work-tool-White.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  position: absolute;
+  left: 150px;
+}
+.menuSet span{
+  position: absolute;
+  top: 32px;
+  left: 80px;
+}
+.WachAll{
+  margin-left: 100px;
+  text-decoration: none;
+  color: rgb(255, 0, 99);
+  border: 1px solid rgb(230, 1, 200);
+  border-radius: 10px;
+  background-color: inherit;
+  outline: none;
+}
+.passhaslca{
+  position: relative;
+  left: 1000px;
+}
+.WachAll:hover{
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(230, 1, 200);
+  border-radius: 10px;
+  background-color: rgb(255, 0, 99);
+  outline: none;
+}
+.timeHistori{
+  position: relative;
+  left: -65px;
+  color: rgb(41, 41, 41);
+}
+.mozhetPon{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.imgGroup{
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+.NameGroup{
+  position:relative;
+  margin-right: 0px;
+  top: -30px;
+  left: 10px;
+  font-size: 20px;
+}
+.Subs{
+  margin-left: 0px;
+position: absolute;
+margin-top: 27px;
+right: 127px;
+border: 1px solid rgb(45, 43, 43);
+padding: 5px;
+border-radius: 10px;
+background-color: inherit;
+}
+.eshe{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+  color:black;
+}
+.Subs:hover{
+  margin-left: 0px;
+position: absolute;
+margin-top: 27px;
+right: 127px;
+border: 1px solid rgb(45, 43, 43);
+padding: 5px;
+border-radius: 10px;
+background-color: rgb(45, 43, 43);
+}
+.headLog
+{
+  z-index: 5;
+  padding-left: 500px;
+  position:fixed;
+  padding-top: 2px;
+width: 100%;
+hEIGHT: 50px;
+background-image: url(logoHiht2.png);
+background-repeat: no-repeat;
+background-size: 200px;
+background-position: 225px -32px;
+background-color:rgb(100, 96, 101);
+}
+
+.sea{
+  outline: none;
+  background-color: rgb(167, 165, 175);
+  border-radius: 8px;
+  border: 0px;
+  padding: 2px;
+  color:black;
+  color:rgb(85, 85, 85);
+}
+
+.historOne{
+  border-radius: 10px;
+  position: relative;
+  margin-left: 500px;
+  top: 70px;
+  height: 830px;
+  width: 700px;
+  background-color: rgb(64, 64, 64);
+  margin-bottom: 10px;
+}
+.underLine{
+margin-left: 15px;
+margin-right:  15px;
+border: 1px solid rgb(80, 80, 80);
+}
+.inputTxt{
+  margin-left: 20px;
+  background-color: inherit;
+  border: 0px;
+  outline:none;
+  width: 500px;
+}
+.Name{
+border: 0px;
+}
+.like{
+  background-image: url(like.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  margin-left: 30px;
+  padding-left: 30px;
+  width: 70px;
+  height: 25px;
+}
+.comment{
+  background-image: url(blank-squared-bubble.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 30px;
+  width: 70px;
+  height: 25px;
+}
+.repost{
+  background-image: url(connections.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 30px;
+  width: 70px;
+  height: 25px;
+}
+.nameGos{
+  margin-left: 25px;
+  font-size: 18px;
+}
+.moreComme{
+  margin-left: 333px;
+}
+.Loding{
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+.avaTarTwo{
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.MyNames{
+  font-size: 18px;
+  margin-left:80px;
+}
+.idName{
+  font-size: 14px;
+  color:rgb(22, 22, 22);
+  margin-left: 80px;
+}
+.MySubCount{
+  position: absolute;
+  font-size: 20px;
+  top: 88px;
+  margin-left: 10px;
+  color : rgb(144, 144, 144);
+}
+.MySub{
+  position: absolute;
+  top: 70px;
+margin-left: 10px;
+font-size: 20px;
+color:rgb(113, 113, 113);
+}
+.bacGr{
+  position: absolute;
+  background-color: rgb(60, 60, 60);
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  border-radius: 50px;
+  top:-30px;
+}
+.conneTxt{
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.suggestionFour{
+  padding-top: 10px;
+  position:fixed;
+  z-index: 5;
+  top: 70px;
+      left: 180px;
+      width: 300px;
+      height: 250px;
+background-color: rgb(28, 28, 28);
+border: 0px;
+border-radius: 10px;
+}
+.boxIn{
+  padding-top: 10px;
+  position: absolute;;
+  top: 100px;
+  width: 300px;
+  height: 140px;
+  background-color: rgb(60, 60, 60);
+}
+.suggestionTree{
+  padding-top: 10px;
+  position:fixed;
+  display: none;
+  z-index: 5;
+  top: 70px;
+  left: 745px;
+width: 500px;
+height: 800px;
+background-color: rgb(28, 28, 28);
+border: 0px;
+border-radius: 10px;
+}
+.eye{
+  background-image: url(eye.png);
+  margin-left: 250px;
+  background-position: 0px -4px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 30px;
+  width: 70px;
+  height: 25px;
+}
+.like, .comment, .repost, .eye{
+  display: inline-block;
+}
+.avaTar{
+  margin-top: 15px;
+  margin-left: 20px;
+  border-radius: 50px;
+  width:50px;
+  height: 50px;
+}
+.avaTar, .skrep{
+  display: inline-block;
+}
+.skrep{
+  position: absolute;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.NamePip{
+  font-size: 18px;
+  font-weight: 500;
+}
+.dateHis{
+color:rgb(19, 19, 19);
+}
+.comentAvtor{
+  margin-left: 25px;
+}
+.mainImg{
+  margin-left: 25px;
+width: 650px;
+height: 500px;
+border-radius: 10px;
+}
+
+/* .MainStand{
+  margin-left: 175px;
+  width: 80%;
+  height: 1000px;
+  background-color: rgb(223, 223, 223);
+} */
+
+.searchHead
+{
+margin-top: 15px;
+  padding-left: 100px;
+}
+.Log{
+
+}
